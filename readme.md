@@ -1,6 +1,6 @@
 # LLM Lab
 
-This project is a laboratory environment that includes various artificial intelligence and natural language processing (NLP) applications. The project performs operations such as text-based querying, image generation, and embedding-based similarity calculation with different submodules.
+This project is an advanced laboratory environment that showcases various Artificial Intelligence (AI) and Natural Language Processing (NLP) applications. Comprising multiple submodules, the project is designed to demonstrate the capabilities and methods of AI. These submodules perform a variety of tasks, including text-based querying, image generation using generative models, embedding-based similarity calculation, interaction with external functions or APIs, and fine-tuning pre-trained models. Each submodule utilizes the latest AI technologies to explore and showcase the practical applications of modern NLP and AI techniques, providing a powerful environment for experimentation and development.
 
 ## Subprojects
 
@@ -27,4 +27,4 @@ This project is a laboratory environment that includes various artificial intell
 ### 5. **Fine-Tuning with Groq**
 - **Description**: Demonstrates how to fine-tune models using the Groq library for specific tasks.
 - **Technologies**: Groq library, Python
-- **More Information**: [fine_tuning_with_groq/readme.md](./fine_tuning_with_groq/readme.md)
+- **More Information**: [fine_tunning_with_groq\readme.md](./fine_tunning_with_groq\readme.md)
