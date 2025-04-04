@@ -18,3 +18,8 @@ This project is a laboratory environment that includes various artificial intell
 - **Description**: Compares user queries with texts, calculates similarity scores, and visualizes the results.
 - **Technologies**: Sentence Transformers, Matplotlib, Seaborn.
 - **More Information**: [embedding_base_search/readme.md](./embedding_base_search/readme.md)
+
+### 4. **Function Calling with Groq**
+- **Description**: Demonstrates how to use the "function calling" feature of the Groq library to dynamically handle function calls from the model in a Python application.
+- **Technologies**: Groq library, Python
+- **More Information**: [function_calling_with_groq/readme.md](./function_calling_with_groq/readme.md)
