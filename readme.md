@@ -23,3 +23,8 @@ This project is a laboratory environment that includes various artificial intell
 - **Description**: Demonstrates how to use the "function calling" feature of the Groq library to dynamically handle function calls from the model in a Python application.
 - **Technologies**: Groq library, Python
 - **More Information**: [function_calling_with_groq/readme.md](./function_calling_with_groq/readme.md)
+
+### 5. **Fine-Tuning with Groq**
+- **Description**: Demonstrates how to fine-tune models using the Groq library for specific tasks.
+- **Technologies**: Groq library, Python
+- **More Information**: [fine_tuning_with_groq/readme.md](./fine_tuning_with_groq/readme.md)
