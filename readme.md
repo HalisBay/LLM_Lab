@@ -27,4 +27,4 @@ This project is an advanced laboratory environment that showcases various Artifi
 ### 5. **Fine-Tuning with Groq**
 - **Description**: Demonstrates how to fine-tune models using the Groq library for specific tasks.
 - **Technologies**: Groq library, Python
-- **More Information**: [fine_tunning_with_groq\readme.md](./fine_tunning_with_groq\readme.md)
+- **More Information**: [fine_tunning_with_groq/readme.md](./fine_tunning_with_groq/readme.md)
