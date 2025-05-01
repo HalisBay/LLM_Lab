@@ -28,3 +28,8 @@ This project is an advanced laboratory environment that showcases various Artifi
 - **Description**: Demonstrates how to fine-tune models using the Groq library for specific tasks.
 - **Technologies**: Groq library, Python
 - **More Information**: [fine_tunning_with_groq/readme.md](./fine_tunning_with_groq/readme.md)
+
+### 6. **Job Search Demo**
+- **Description**: A job search application that allows users to search for job titles using a query. It combines a FastAPI backend and a React frontend.
+- **Technologies**: FastAPI, React, FAISS, Sentence Transformers.
+- **More Information**: [job_search_demo/readme.md](./job_search_demo/readme.md)
