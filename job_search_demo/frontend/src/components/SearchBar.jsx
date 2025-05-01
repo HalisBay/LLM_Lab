@@ -17,7 +17,7 @@ const SearchBar = ({ query, setQuery, handleSearch }) => {
         placeholder="İş unvanı ara..." 
         style={{ marginRight: '10px', padding: '8px' }}
       />
-      <button onClick={handleSearch} style={{ padding: '8px 15px' }}>Ara</button>
+      <button onClick={handleSearch} style={{ padding: '8px 15px' }}>search</button>
     </div>
   );
 };

@@ -11,17 +11,15 @@ const App = () => {
     try {
       const response = await axios.get(`http://localhost:8000/search/?query=${query}`);
       setResults(response.data.results || []); 
-      // Eğer backend { results: [...] } gibi bir nesne döndürüyorsa:
-      // setResults(response.data.results || []);
     } catch (error) {
-      console.error("Arama sırasında hata oluştu:", error);
-      setResults([]); // Hata durumunda sonuçları temizle
+      console.error("An error occurred during the search:", error);
+      setResults([]);
     }
   };
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>İş Arama</h1>
+      <h1>Job Search</h1>
       <SearchBar query={query} setQuery={setQuery} handleSearch={handleSearch} />
       <div style={{ marginTop: '20px' }}>
         {results.length > 0 ? (
@@ -29,7 +27,7 @@ const App = () => {
             <JobCard key={index} jobTitle={job} />
           ))
         ) : (
-          <p>Arama sonucu bulunamadı.</p> 
+          <p>No search results found.</p> 
         )}
       </div>
     </div>
