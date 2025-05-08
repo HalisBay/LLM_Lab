@@ -33,3 +33,8 @@ This project is an advanced laboratory environment that showcases various Artifi
 - **Description**: A job search application that allows users to search for job titles using a query. It combines a FastAPI backend and a React frontend.
 - **Technologies**: FastAPI, React, FAISS, Sentence Transformers.
 - **More Information**: [job_search_demo/readme.md](./job_search_demo/readme.md)
+
+### 7. **Multi-Agent System**
+- **Description**: Automates the process of creating blog posts using multiple AI agents for planning, researching, writing, and reviewing.
+- **Technologies**: Python, Groq API, httpx.
+- **More Information**: [multi_agent_system/readme.md](./multi_agent_system/readme.md)
