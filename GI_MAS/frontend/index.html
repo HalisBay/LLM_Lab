@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GI_MAS | Multi Agent Image Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+    <main class="container">
+      <section class="hero">
+        <p class="eyebrow">GI_MAS</p>
+        <h1>Groq-Powered Multi Agent Image Design Studio</h1>
+        <p>
+          Enter your campaign prompt, specify your institution and brand colors. The system generates 5 diverse visual concepts
+          with clean composition areas for later person placement.
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="grid-form">
+          <label>
+            Campaign objective / prompt
+            <textarea id="userPrompt" placeholder="Example: University enrollment campaign for student advisory"></textarea>
+          </label>
+
+          <label>
+            Institution / brand name
+            <input id="institutionName" type="text" placeholder="Example: Nova Education Institute" />
+          </label>
+
+          <label>
+            Institution logo
+            <input id="logoImage" type="file" accept="image/*" />
+          </label>
+
+          <label>
+            Brand colors (comma separated)
+            <input id="brandColors" type="text" placeholder="Example: #0E3A8A, #00A8E8, #E6F4FF" />
+          </label>
+        </div>
+
+        <button id="generateBtn" class="primary-btn">Generate 5 Designs</button>
+        <p id="statusText" class="status"></p>
+      </section>
+
+      <section id="agentProgressSection" class="meta hidden">
+        <h2>Agent Workflow (Live)</h2>
+        <div id="agentGraph" class="agent-graph"></div>
+        <div id="agentLegend" class="agent-legend"></div>
+      </section>
+
+      <section id="metaSection" class="meta hidden">
+        <h2>Model & Agent Information</h2>
+        <div id="metaContent"></div>
+      </section>
+
+      <section id="gallery" class="gallery"></section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
